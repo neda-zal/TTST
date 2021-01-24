@@ -68,3 +68,10 @@ Step 2: Gradually extend unit tests until a suitable test coverage is reached.
 
 - 1 point over the mean of the assignemnt marks is all assignemnts have been delivered withing their respective dealines
 - 0.5 point if all assignemnts are delivered within the last course day (midnight 09.12.2020). 
+
+**Assignment 3 report**:
+
+Code coverage before integration testing: 50%
+Code coverage after implemented integration testing with TDD:
+
+

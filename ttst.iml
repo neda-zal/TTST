@@ -15,8 +15,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="library" exported="" name="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" level="application" />
     <orderEntry type="library" exported="" name="org.junit:surefire-junit5:5.0.0-ALPHA" level="project" />
     <orderEntry type="library" name="Maven: it.unibz.inf:AuctionSystemLocal:0.0.1-SNAPSHOT" level="project" />

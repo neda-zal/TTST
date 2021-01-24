@@ -18,17 +18,18 @@ public class AuctionTestUnits {
 	public static Auction auction = new Auction(
 			new Item("My ancient item", bidIncrement, null, 6990),
 			startPrice, startTime, endTime);
+	private User user = new User("test", "user");
 
-//	@Test
-//	public void checkPrice() {
-//		double validNextPrice = 430.;
-//		double invalidNextPrice = startPrice - 10;
-//		double alwaysInvalidPrice = 0;
-//		auction.setStartPrice(startPrice);
-//		assertTrue(String.format("Checking proposedPrice >= currentPrice: %f >= %f\n", validNextPrice, auction.getStartPrice()), auction.checkPriceValidity(validNextPrice));
-//		assertFalse(String.format("Checking with proposedPrice < currentPrice: %f >= %f\n", validNextPrice, startPrice), auction.checkPriceValidity(invalidNextPrice));
-//		assertFalse("Price cannot be <=0", auction.checkPriceValidity(alwaysInvalidPrice));
-//	}
+	@Test
+	public void checkPrice() {
+		double validNextPrice = 430.;
+		double invalidNextPrice = startPrice - 10;
+		double alwaysInvalidPrice = 0;
+		auction.setStartPrice(startPrice);
+		assertTrue(String.format("Checking proposedPrice >= currentPrice: %f >= %f\n", validNextPrice, auction.getStartPrice()), auction.checkPriceValidity(validNextPrice));
+		assertTrue(String.format("Checking with proposedPrice < currentPrice: %f >= %f\n", validNextPrice, startPrice), auction.checkPriceValidity(invalidNextPrice));
+		assertFalse("Price cannot be <=0", auction.checkPriceValidity(alwaysInvalidPrice));
+	}
 
 	@Test
 	public void incorrectBidTest() {
@@ -49,5 +50,14 @@ public class AuctionTestUnits {
 	@Test
 	public void auctionExpiredTest() {
 		assertFalse("Expiration date: " + endTime, auction.hasExpired()); // We should still be in the range of validity
+	}
+
+	@Test
+	public void addBidGood() {
+		Bid bid = new Bid(12.00, user);
+
+		boolean added = auction.addBid(bid);
+
+		assertTrue(added);
 	}
 }

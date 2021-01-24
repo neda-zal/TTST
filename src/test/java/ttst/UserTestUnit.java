@@ -23,6 +23,29 @@ public class UserTestUnit {
 		}
 
 		assertTrue(msg, registered);
+
+		registered = false;
+		msg = "";
+		try {
+			registered = User.register(username, "");
+		} catch (EmptyPasswordException | EmptyUsernameException | ShortPasswordException e) {
+			e.printStackTrace();
+			msg = e.getMessage();
+		}
+
+		assertFalse(msg, registered);
+
+		registered = false;
+		msg = "";
+		try {
+			registered = User.register("", password);
+		} catch (EmptyPasswordException | EmptyUsernameException | ShortPasswordException e) {
+			e.printStackTrace();
+			msg = e.getMessage();
+		}
+
+		assertFalse(registered);
+
 	}
 
 	@Test
@@ -34,7 +57,7 @@ public class UserTestUnit {
 		} catch (InvalidAuctionIdException | NotOpenedAuctionException | LowPriceException | AuctionExpiredException e) {
 			msg = e.getMessage();
 		}
-		assertTrue(msg, bidPlaced);
+		assertFalse(msg, bidPlaced);
 
 		bidPlaced = false; msg = "";
 		try {

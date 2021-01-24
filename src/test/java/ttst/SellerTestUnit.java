@@ -9,6 +9,7 @@ import ttst.Seller;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
 
 public class SellerTestUnit {
 	protected static Seller seller = Seller.getInstance();
@@ -41,7 +42,7 @@ public class SellerTestUnit {
 			msg = e.toString();
 		}
 
-		assertTrue(msg, added);
+		assertFalse(msg, added);
 	}
 
 	@Test

@@ -1,6 +1,7 @@
 package ttst;
 
 import java.util.ArrayList;
+import it.unibz.inf.bl.AuctionManager;
 
 import exceptions.InvalidAuctionIdException;
 
@@ -79,6 +80,14 @@ public class Auction {
 		}
 		
 		return this.nextPrice;
+	}
+
+	public Bid searchHighestBid(ArrayList<Bid> list) {
+
+
+		Bid highest = AuctionManager.searchHighestBid((it.unibz.inf.be.Bid)list); // need to convert to proper list
+
+		return highest;
 	}
 
 	public void setNextPrice(double d) {
