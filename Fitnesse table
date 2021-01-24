@@ -1,0 +1,9 @@
+getNextPrice
+
+
+addbid		array bid size		NextPrice?
+
+true		0			next price
+true		>0			next price
+false		0			start price
+false 		>0			start price

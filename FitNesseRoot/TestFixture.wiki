@@ -1,0 +1,14 @@
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {slim}
+
+!path X:\Users\Niom\eclipse-workspace\assignment-master\target\classes
+
+!|Import|
+|ttst|
+
+!|TestGet|
+|price|getNextPrice?|
+|10 |    10.0       |
+|null| 0.0|
+

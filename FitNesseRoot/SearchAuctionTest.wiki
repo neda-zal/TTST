@@ -1,0 +1,15 @@
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {slim}
+
+!path X:\Users\Niom\eclipse-workspace\assignment-master\target\test-classes
+
+!|Import|
+|fitnesse|
+
+!|Search Auction Fixture|
+|username|password|categoryId|description|minPrice|maxPrice|startDate|endDate|searchAuction?|
+|niom    |admin	  |1         |super bible|1       |5000    |2000     |600000 |added|
+|asd     |admin	  |7         |           |5000    |5       |2000     |600000 |error|
+|qwe     |admin	  |1         |super bible|1       |5000    |600000   |2000   |error|
+|niom    |admin	  |1         |super bible|1       |5000    |2000     |600000 |error|

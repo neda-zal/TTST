@@ -1,0 +1,14 @@
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {slim}
+
+!path X:\Users\Niom\eclipse-workspace\assignment-master\target\test-classes
+
+!|Import|
+|fitnesse|
+
+!|SearchAuctionsFixture|
+|numerator|denominator|quotient?|
+|10       |2          |5        |
+|12.6     |3          |4.2      |
+|100      |4          |33       |

@@ -1,0 +1,9 @@
+|TestFixture||03:11:14 ven, ott 30, 2020|
+|DivisionTest||24:43:10 ven, ott 30, 2020|
+|AuctionsTest||24:27:58 ven, ott 30, 2020|
+|SearchAuctionTest||24:12:45 ven, ott 30, 2020|
+|FrontPage||22:42:41 gio, ott 29, 2020|
+|||20:45:59 gio, ott 29, 2020|
+|searchAuctionTest||20:45:45 gio, ott 29, 2020|
+|FrontPage.searchAuctionTest||20:33:12 gio, ott 29, 2020|
+|getNextPrice||13:15:12 mer, ott 28, 2020|

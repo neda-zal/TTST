@@ -1,0 +1,954 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>TestFixture</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>13</exceptions>
+    </counts>
+    <date>2020-10-30T00:32:06+01:00</date>
+    <runTimeInMillis>42</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: X:\Users\Niom\eclipse-workspace\assignment-master\target\test-classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td colspan="8" class="error"&gt;&lt;span class="pass"&gt;TestFixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="8"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="8"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="8"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;username&lt;/td&gt;
+		&lt;td&gt;password&lt;/td&gt;
+		&lt;td&gt;categoryId&lt;/td&gt;
+		&lt;td&gt;description&lt;/td&gt;
+		&lt;td&gt;minPrice&lt;/td&gt;
+		&lt;td&gt;maxPrice&lt;/td&gt;
+		&lt;td&gt;startDate&lt;/td&gt;
+		&lt;td&gt;endDate&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;niom&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;admin&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;super bible&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;5000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;2000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;600000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="8"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="8"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: ttst/User
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]
+Caused by: java.lang.ClassNotFoundException: ttst.User
+	at java.net.URLClassLoader.findClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getDeclaredMethods0(Native Method) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.privateGetPublicMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at java.lang.Class.getMethods(Unknown Source) [rt.jar:1.8.0_271]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findMatchingMethod(SimpleInteraction.java:250) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleMethodCacheMiss(CachedInteraction.java:77) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.findMatchingMethod(CachedInteraction.java:58) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:215) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200501]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200501]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestFixture</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='fitnesse'}</instruction>
+        <slimResult>pass(fitnesse)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='TestFixture', args=[]}</instruction>
+        <slimResult>pass(TestFixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>TestFixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_1', instruction='call', instanceName='decisionTable_1', methodName='table', args=[[[username, password, categoryId, description, minPrice, maxPrice, startDate, endDate], [niom, admin, 1, super bible, 1, 5000, 2000, 600000]]]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_1</instructionId>
+          <type>SilentReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_2', instruction='call', instanceName='decisionTable_1', methodName='beginTable', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_2</instructionId>
+          <type>SilentReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_3', instruction='call', instanceName='decisionTable_1', methodName='reset', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_3</instructionId>
+          <type>SilentReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setUsername', args=[niom]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setPassword', args=[admin]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_6', instruction='call', instanceName='decisionTable_1', methodName='setCategoryId', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_6</instructionId>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='setDescription', args=[super bible]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_8', instruction='call', instanceName='decisionTable_1', methodName='setMinPrice', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_8</instructionId>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_9', instruction='call', instanceName='decisionTable_1', methodName='setMaxPrice', args=[5000]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_9</instructionId>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setStartDate', args=[2000]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_10</instructionId>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_11', instruction='call', instanceName='decisionTable_1', methodName='setEndDate', args=[600000]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_11</instructionId>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='execute', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_12</instructionId>
+          <type>SilentReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_13', instruction='call', instanceName='decisionTable_1', methodName='endTable', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_13</instructionId>
+          <type>SilentReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp X:\Users\Niom\eclipse-workspace\assignment-master\fitnesse-standalone.jar;X:\Users\Niom\eclipse-workspace\assignment-master\target\test-classes fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>246</totalRunTimeInMillis>
+</testResults>
+

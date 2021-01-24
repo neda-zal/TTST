@@ -1,0 +1,1551 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>TestFixture</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>20</exceptions>
+    </counts>
+    <date>2020-10-30T01:40:43+01:00</date>
+    <runTimeInMillis>91</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: X:\Users\Niom\eclipse-workspace\assignment-master\target\classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ttst&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="5"&gt;&lt;span class="pass"&gt;test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;itemId&lt;/td&gt;
+		&lt;td&gt;startPrice&lt;/td&gt;
+		&lt;td&gt;startTime&lt;/td&gt;
+		&lt;td&gt;EndTime&lt;/td&gt;
+		&lt;td&gt;createAuction?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;No Method setItemId[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5000 &lt;span class="error"&gt;No Method setStartPrice[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2604055784605 &lt;span class="error"&gt;No Method setStartTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2606015784605 &lt;span class="error"&gt;No Method setEndTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;true &lt;span class="error"&gt;No Method createAuction[0] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;7 &lt;span class="error"&gt;No Method setItemId[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5000 &lt;span class="error"&gt;No Method setStartPrice[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2604055784605 &lt;span class="error"&gt;No Method setStartTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2606015784605 &lt;span class="error"&gt;No Method setEndTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;false &lt;span class="error"&gt;No Method createAuction[0] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;No Method setItemId[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5000 &lt;span class="error"&gt;No Method setStartPrice[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2604055784605 &lt;span class="error"&gt;No Method setStartTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2606015784605 &lt;span class="error"&gt;No Method setEndTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;false &lt;span class="error"&gt;No Method createAuction[0] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;No Method setItemId[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5000 &lt;span class="error"&gt;No Method setStartPrice[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2604055784606 &lt;span class="error"&gt;No Method setStartTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2604055784605 &lt;span class="error"&gt;No Method setEndTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;false &lt;span class="error"&gt;No Method createAuction[0] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+getCategoryId() -&amp;gt; int
+getClass() -&amp;gt; class java.lang.Class
+getDescription() -&amp;gt; class java.lang.String
+getEndDate() -&amp;gt; long
+getFollowedAuctions() -&amp;gt; class java.util.ArrayList
+getMaxPrice() -&amp;gt; double
+getMinPrice() -&amp;gt; double
+getOwnedItems() -&amp;gt; class java.util.ArrayList
+getPassword() -&amp;gt; class java.lang.String
+getStartDate() -&amp;gt; long
+getUsername() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+searchAuction() -&amp;gt; class java.lang.String
+setCategoryId(int) -&amp;gt; void
+setDescription(java.lang.String) -&amp;gt; void
+setEndDate(long) -&amp;gt; void
+setFollowedAuctions(java.util.ArrayList) -&amp;gt; void
+setMaxPrice(double) -&amp;gt; void
+setMinPrice(double) -&amp;gt; void
+setOwnedItems(java.util.ArrayList) -&amp;gt; void
+setPassword(java.lang.String) -&amp;gt; void
+setStartDate(long) -&amp;gt; void
+setUsername(java.lang.String) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestFixture</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='ttst'}</instruction>
+        <slimResult>pass(ttst)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>ttst</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='test', args=[]}</instruction>
+        <slimResult>pass(test)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>test</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setItemId', args=[2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setItemId[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setStartPrice', args=[5000]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setStartPrice[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_6', instruction='call', instanceName='decisionTable_1', methodName='setStartTime', args=[2604055784605]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_6</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setStartTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='setEndTime', args=[2606015784605]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setEndTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_9', instruction='call', instanceName='decisionTable_1', methodName='createAuction', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_9</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>No Method createAuction[0] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_11', instruction='call', instanceName='decisionTable_1', methodName='setItemId', args=[7]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_11</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setItemId[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='setStartPrice', args=[5000]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_12</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setStartPrice[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_13', instruction='call', instanceName='decisionTable_1', methodName='setStartTime', args=[2604055784605]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_13</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setStartTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='setEndTime', args=[2606015784605]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setEndTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_16', instruction='call', instanceName='decisionTable_1', methodName='createAuction', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_16</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>No Method createAuction[0] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_18', instruction='call', instanceName='decisionTable_1', methodName='setItemId', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_18</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setItemId[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_19', instruction='call', instanceName='decisionTable_1', methodName='setStartPrice', args=[5000]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_19</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setStartPrice[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='setStartTime', args=[2604055784605]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_20</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setStartTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_21', instruction='call', instanceName='decisionTable_1', methodName='setEndTime', args=[2606015784605]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_21</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setEndTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_23', instruction='call', instanceName='decisionTable_1', methodName='createAuction', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_23</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>No Method createAuction[0] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_25', instruction='call', instanceName='decisionTable_1', methodName='setItemId', args=[1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_25</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setItemId[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_26', instruction='call', instanceName='decisionTable_1', methodName='setStartPrice', args=[5000]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_26</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setStartPrice[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_27', instruction='call', instanceName='decisionTable_1', methodName='setStartTime', args=[2604055784606]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_27</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setStartTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_28', instruction='call', instanceName='decisionTable_1', methodName='setEndTime', args=[2604055784605]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_28</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setEndTime[1] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_30', instruction='call', instanceName='decisionTable_1', methodName='createAuction', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_30</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>No Method createAuction[0] in class ttst.Test.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+getCategoryId() -&gt; int
+getClass() -&gt; class java.lang.Class
+getDescription() -&gt; class java.lang.String
+getEndDate() -&gt; long
+getFollowedAuctions() -&gt; class java.util.ArrayList
+getMaxPrice() -&gt; double
+getMinPrice() -&gt; double
+getOwnedItems() -&gt; class java.util.ArrayList
+getPassword() -&gt; class java.lang.String
+getStartDate() -&gt; long
+getUsername() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+searchAuction() -&gt; class java.lang.String
+setCategoryId(int) -&gt; void
+setDescription(java.lang.String) -&gt; void
+setEndDate(long) -&gt; void
+setFollowedAuctions(java.util.ArrayList) -&gt; void
+setMaxPrice(double) -&gt; void
+setMinPrice(double) -&gt; void
+setOwnedItems(java.util.ArrayList) -&gt; void
+setPassword(java.lang.String) -&gt; void
+setStartDate(long) -&gt; void
+setUsername(java.lang.String) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp X:\Users\Niom\eclipse-workspace\assignment-master\fitnesse-standalone.jar;X:\Users\Niom\eclipse-workspace\assignment-master\target\classes fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>310</totalRunTimeInMillis>
+</testResults>
+

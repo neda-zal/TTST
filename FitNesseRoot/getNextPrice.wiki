@@ -1,0 +1,5 @@
+---
+Help: testing the getNextPrice method
+Test
+---
+<test page>
