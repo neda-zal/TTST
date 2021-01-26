@@ -23,7 +23,7 @@ public class auctionIntegrationTest {
         Bid max = null;
         String msg = null;
         try{
-            searchHighestBid(bids);
+            Auction.searchHighestBid(bids);
         } catch (Exception e) {
             msg = e.toString();
         }
@@ -31,7 +31,7 @@ public class auctionIntegrationTest {
 
         //bids.add(12.50,today,user);
         try{
-            searchHighestBid(bids);
+            Auction.searchHighestBid(bids);
         } catch (Exception e){
             msg = e.toString();
         }
