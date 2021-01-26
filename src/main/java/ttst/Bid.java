@@ -21,6 +21,10 @@ public class Bid {
 	public User getBidder() {
 		return bidder;
 	}
+
+	public void setTime(long settime) {
+		time = settime;
+	}
 	
 	public Bid(double price, User bidder) {
 		this.price = price;

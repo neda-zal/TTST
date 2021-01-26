@@ -92,6 +92,16 @@ public class User {
 		return true;
 	}
 
+	public static User getUser(long id) {
+		for (User user : users) {
+			if(user.id == id) {
+				return user;
+			}
+		}
+
+		return null;
+	}
+
 	/*
 	 * The place bid method has to place the bid (insert it in the list).
 	 * It needs the auction id and a price, it does all the input validity checks
