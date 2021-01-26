@@ -23,13 +23,13 @@ public class auctionIntegrationTestUnits {
 
     @Test
     public void searchHighestBidTest() {
-        List<Bid> bids = new ArrayList<Bid>();
+        //List<Bid> bids = new ArrayList<Bid>();
         Auction auction = new Auction(item, 250.00,23000000,23500000);
         //bids.add(12.50,today,user);
         Bid max = null;
         String msg = null;
 
-        assertNull("the list of bids is empty", auction.searchHighestBid(bids));
+        assertNull("the list of bids is empty", auction.searchHighestBid());
 
         //bids.add(12.50,today,user);
         //assertNotNull("The highest bid", max);
