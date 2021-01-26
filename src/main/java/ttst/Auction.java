@@ -1,6 +1,8 @@
 package ttst;
 
 import java.util.ArrayList;
+import java.util.stream.Collectors;
+
 import it.unibz.inf.bl.AuctionManager;
 
 import exceptions.InvalidAuctionIdException;
@@ -21,6 +23,7 @@ public class Auction {
 
 	private double nextPrice;
 
+	private BidConverter converter = new BidConverter();
 	private static ArrayList<Auction> auctions = new ArrayList<Auction>();
 
 	/*
@@ -85,7 +88,7 @@ public class Auction {
 	public Bid searchHighestBid() {
 		//Bid highest = AuctionManager.searchHighestBid((it.unibz.inf.be.Bid)list); // need to convert to proper list
 		ArrayList<it.unibz.inf.be.Bid> jarBids = bids.stream()
-			.map(bid--> converter.toJar(bid))
+			.map(bid -> converter.toJarBid(bid))
 			.collect(Collectors.toCollection(ArrayList::new));
 		it.unibz.inf.be.Bid highestBid = AuctionManager.searchHighestBid(jarBids);
 		return converter.convertToTtstBid(highestBid);

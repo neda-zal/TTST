@@ -66,6 +66,7 @@
                         <include>ItemTestUnit.java</include>
                         <include>SellerTestUnit.java</include>
                         <include>UserTestUnit.java</include>
+                        <include>UserIntegrationTest.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                     <forkMode>always</forkMode>
