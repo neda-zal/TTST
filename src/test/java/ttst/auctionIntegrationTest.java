@@ -1,5 +1,3 @@
-package ttst;
-
 import org.junit.Test;
 import ttst.Auction;
 import ttst.Item;
@@ -22,14 +20,22 @@ public class auctionIntegrationTest {
     public void searchHighestBidTest() {
         List<Bid> bids = new ArrayList<Bid>();
         //bids.add(12.50,today,user);
-        String msg;
+        Bid max = null;
+        String msg = null;
         try{
             searchHighestBid(bids);
         } catch (Exception e) {
             msg = e.toString();
         }
+        assertNull(msg, bids);
 
-        assertNotNull(msg, bids);
+        //bids.add(12.50,today,user);
+        try{
+            searchHighestBid(bids);
+        } catch (Exception e){
+            msg = e.toString();
+        }
+        assertNotNull(msg, max);
     }
 
 }
