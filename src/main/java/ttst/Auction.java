@@ -82,12 +82,13 @@ public class Auction {
 		return this.nextPrice;
 	}
 
-	public Bid searchHighestBid(ArrayList<Bid> list) {
-
-
-		Bid highest = AuctionManager.searchHighestBid((it.unibz.inf.be.Bid)list); // need to convert to proper list
-
-		return highest;
+	public Bid searchHighestBid() {
+		//Bid highest = AuctionManager.searchHighestBid((it.unibz.inf.be.Bid)list); // need to convert to proper list
+		ArrayList<it.unibz.inf.be.Bid> jarBids = bids.stream()
+			.map(bid--> converter.toJar(bid))
+			.collect(Collectors.toCollection(ArrayList::new));
+		it.unibz.inf.be.Bid highestBid = AuctionManager.searchHighestBid(jarBids);
+		return converter.convertToTtstBid(highestBid);
 	}
 
 	public void setNextPrice(double d) {
