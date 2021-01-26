@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class AuctionIntegrationTest {
+public class auctionIntegrationTestUnits {
 
     //test for the searchHighestBid() function in the .jar
     private static Calendar calendar = Calendar.getInstance();
@@ -29,8 +29,17 @@ public class AuctionIntegrationTest {
         Bid max = null;
         String msg = null;
 
-        assertNull("the list of bids is empty", auction.searchHighestBid());
+        assertNull(auction.searchHighestBid());
 
+        user.placeBid(auction.getId(),250.00);
+
+        max=auction.searchHighestBid();
+        assertEquals(250.00,max.price);
+
+        user.placeBid(auction.getId(),300.50);
+        max=null;
+        max=auction.searchHighestBid();
+        assertEquals(250.00,max.price);
         //bids.add(12.50,today,user);
         //assertNotNull("The highest bid", max);
     }
