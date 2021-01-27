@@ -62,7 +62,7 @@
                 </executions>
                 <configuration>
                     <includes>
-                        <include>AuctionTestUnits.java</include>
+                        <include>AuctionTestUnit.java</include>
                         <include>ItemTestUnit.java</include>
                         <include>SellerTestUnit.java</include>
                         <include>UserTestUnit.java</include>
@@ -71,7 +71,6 @@
                         <include>AuctionIntegrationTest.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <forkMode>always</forkMode>
                 </configuration>
             </plugin>
             <plugin>
@@ -157,8 +156,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <excludes>
-                                <exclude>**/*UnitTest.java</exclude>
-                                <exclude>**/*RegressionTest.java</exclude>
+                                <exclude>**/*TestUnit.java</exclude>
                             </excludes>
                         </configuration>
                     </plugin>
