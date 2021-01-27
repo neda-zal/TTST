@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class auctionIntegrationTestUnits {
+public class AuctionIntegrationTestUnits {
 
     //test for the searchHighestBid() function in the .jar
     private static Calendar calendar = Calendar.getInstance();
