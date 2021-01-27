@@ -78,11 +78,12 @@ public class Auction {
 	 * Return next valid price for auction
 	 */
 	public double getNextPrice() {
+		Bid highestBid = searchHighestBid();
 		if(bids.size() == 0) {
 			return startPrice;
 		}
 		
-		return this.nextPrice;
+		return highestBid.getPrice();
 	}
 
 	public Bid searchHighestBid() {
