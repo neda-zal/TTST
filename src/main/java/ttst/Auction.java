@@ -86,7 +86,10 @@ public class Auction {
 	}
 
 	public Bid searchHighestBid() {
-		//Bid highest = AuctionManager.searchHighestBid((it.unibz.inf.be.Bid)list); // need to convert to proper list
+		if(bids.size() == 0) {
+			return null;
+		}
+
 		ArrayList<it.unibz.inf.be.Bid> jarBids = bids.stream()
 			.map(bid -> converter.toJarBid(bid))
 			.collect(Collectors.toCollection(ArrayList::new));

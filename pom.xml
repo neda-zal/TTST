@@ -67,6 +67,8 @@
                         <include>SellerTestUnit.java</include>
                         <include>UserTestUnit.java</include>
                         <include>UserIntegrationTest.java</include>
+                        <include>BidConverterIntegrationTest.java</include>
+                        <include>AuctionIntegrationTest.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                     <forkMode>always</forkMode>

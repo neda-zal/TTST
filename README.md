@@ -72,6 +72,8 @@ Step 2: Gradually extend unit tests until a suitable test coverage is reached.
 **Assignment 3 report**:
 
 Code coverage before integration testing: 50%
-Code coverage after implemented integration testing with TDD:
+
+Code coverage after implemented integration testing with TDD: 59%
+So, after integration testing with TDD out code coverage increased +9%
 
 

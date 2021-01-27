@@ -44,6 +44,7 @@ public class AuctionTestUnits {
 
 	@Test
 	public void auctionStillOpenTest() {
+		System.out.println(auction.hasStarted());
 		assertTrue("Start at: " + startTime, auction.hasStarted());
 	}
 

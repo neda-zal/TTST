@@ -4,9 +4,7 @@ import java.sql.Timestamp;
 public class BidConverter {
     public it.unibz.inf.be.Bid toJarBid(ttst.Bid bid) {
         return new it.unibz.inf.be.Bid(
-            (int) bid.getBidder().getId(),
-            0,
-            new Timestamp(bid.getTime()),
+            (int) bid.getBidder().getId(), 0, new Timestamp(bid.getTime()),
             (int) (bid.getPrice() * 100)
         );
     }
