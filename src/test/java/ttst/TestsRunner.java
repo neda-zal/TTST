@@ -16,7 +16,7 @@ public class TestsRunner {
 	}
 	public static void main(String[] args) {
 		List<Class> classes = new ArrayList<Class>() {{
-			add(AuctionTestUnits.class);
+			add(AuctionTestUnit.class);
 			add(ItemTestUnit.class);
 			add(SellerTestUnit.class);
 			add(UserTestUnit.class);
